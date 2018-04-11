@@ -60,7 +60,7 @@ public class PbxHandler {
 	
 	private String defaultMessage(){
 		JSONObject jsonObject = new JSONObject();
-		jsonObject.put("fulfillmentText", "Sorry I didnt get you!");
+		jsonObject.put("fulfillmentText", "Sorry I didn\'t get you!");
 		return jsonObject.toString();
 	}
 

@@ -27,7 +27,11 @@ public class MainHandler {
 				PbxHandler pbxHandler = new PbxHandler(queryText);
 				return pbxHandler.process();
 			}else if(queryText.contains("time")){
-				
+				TimeHandler timeHandler = new TimeHandler(queryText);
+				return timeHandler.process();
+			}else if(queryText.contains("date")){
+				DateHandler dateHandler= new DateHandler(queryText);
+				return dateHandler.process();
 			}
 			
 		} catch (ParseException e) {
@@ -39,7 +43,7 @@ public class MainHandler {
 	
 	private String defaultMessage(){
 		JSONObject jsonObject = new JSONObject();
-		jsonObject.put("fulfillmentText", "Sorry I didnt get you!");
+		jsonObject.put("fulfillmentText", "Sorry I didn\'t get you!");
 		return jsonObject.toString();
 	}
 }
