@@ -19,6 +19,7 @@ public class HerokuController {
 	public @ResponseBody String getInput(@RequestBody String request){
 		System.out.println("Inside Call");
 		System.out.println("Request Received is :: "+request);
-		return "{	color: \"red\",	value: \"#f00\"}";
+		//return "{	color: \"red\",	value: \"#f00\"}";
+		return "{\"fulfillmentText\": \"questions\",\"fulfillmentMessages\": [{\"result from heroku\"}],\"source\": string,	\"payload\": {\"payload from heroku\"}}";
 	}
 }
