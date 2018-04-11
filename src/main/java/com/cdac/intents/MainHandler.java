@@ -19,6 +19,7 @@ public class MainHandler {
 			JSONObject queryResultObj = (JSONObject) jsonObject.get("queryResult");
 			
 			String queryText = (String) queryResultObj.get("queryText");
+			queryText = queryText.toLowerCase();
 			String action = (String) queryResultObj.get("action");
 			System.out.println("Query Text is : "+queryText);
 			System.out.println("Action is : "+action);

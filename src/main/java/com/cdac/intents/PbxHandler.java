@@ -46,7 +46,6 @@ public class PbxHandler {
 	}
 	
 	public String process(){
-		queryText = queryText.toLowerCase();
 		JSONObject jsonObject = new JSONObject();
 		for(String key : pbxMap.keySet())
 			if(queryText.contains(key)){
