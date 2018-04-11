@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cdac.intents.MainHandler;
+
 @RestController
 public class HerokuController {
 	
@@ -23,7 +25,10 @@ public class HerokuController {
 		//return "{\"fulfillmentText\": \"questions\",\"fulfillmentMessages\": [{\"speech\": \"result from Heroku\", \"displayText\": \"result form heroku\"}],\"source\": string,\"payload\": {\"payload from heroku\"}}";
 		//String response = "{\"fulfillmentText\": \"questions\",\"fulfillmentMessages\": [{\"speech\": \"result from Heroku\", \"displayText\": \"result form heroku\"}]";
 		
-		String response = "{\"fulfillmentText\": \"result from Heroku\"}";
+		/*String response = "{\"fulfillmentText\": \"result from Heroku\"}";
+		System.out.println("Sending Response: "+response);*/
+		MainHandler mainHandler = new MainHandler(request);
+		String response= mainHandler.process();
 		System.out.println("Sending Response: "+response);
 		return response;
 		//return "{\"speech\": \"result from Heroku\", \"displayText\": \"result form heroku\"}";
