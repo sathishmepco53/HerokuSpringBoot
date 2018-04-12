@@ -23,6 +23,7 @@ public class MainHandler {
 			String action = (String) queryResultObj.get("action");
 			System.out.println("Query Text is : "+queryText);
 			System.out.println("Action is : "+action);
+			JSONObject parameterElt = (JSONObject) queryResultObj.get("parameters");
 			
 			if(queryText.contains("pbx") || queryText.contains("number") || queryText.contains("no")){
 				PbxHandler pbxHandler = new PbxHandler(queryText);
@@ -33,18 +34,24 @@ public class MainHandler {
 			}else if(queryText.contains("date")){
 				DateHandler dateHandler= new DateHandler(queryText);
 				return dateHandler.process();
+			}else if(action.toLowerCase().equals("myweather")){
+				if(parameterElt == null || parameterElt.get("geo-city") == null)
+					return defaultMessage("Please specify the city name");
+				String geoCity = (String) parameterElt.get("geo-city");
+				WeatherHandler weatherHandler = new WeatherHandler(request, geoCity);
+				return weatherHandler.process();
 			}
 			
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return defaultMessage();
+		return defaultMessage("Sorry I didn\'t get you!");
 	}
 	
-	private String defaultMessage(){
+	private String defaultMessage(String message){
 		JSONObject jsonObject = new JSONObject();
-		jsonObject.put("fulfillmentText", "Sorry I didn\'t get you!");
+		jsonObject.put("fulfillmentText", message);
 		return jsonObject.toString();
 	}
 }
