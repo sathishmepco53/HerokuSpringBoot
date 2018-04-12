@@ -14,7 +14,7 @@ public class WeatherHandler {
 	}
 	
 	public String process(){
-		if(geoCity == null)
+		if(geoCity == null || geoCity.trim().length() == 0)
 			return defaultMessage("Please specify the city"); 
 		String url = "https://query.yahooapis.com/v1/public/yql?q=select * from weather.forecast where woeid in (select woeid from geo.places(1) where text='"+geoCity+"')&format=json";
 
