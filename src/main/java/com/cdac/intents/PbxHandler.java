@@ -135,6 +135,7 @@ public class PbxHandler {
 		pbxMap.put("savita", "426");
 		pbxMap.put("savita library", "426");
 		pbxMap.put("kavi raju", "427");
+		pbxMap.put("kaviraju", "427");
 		
 		pbxMap.put("padmaja joshi", "601");
 		pbxMap.put("padmaja", "601");
@@ -169,20 +170,121 @@ public class PbxHandler {
 		pbxMap.put("shilpa", "626");
 		pbxMap.put("ahmad hasan", "627");
 		pbxMap.put("aditya", "628");
-		
+		pbxMap.put("aditya sawant", "628");
+		pbxMap.put("meghana jagtap", "629");
+		pbxMap.put("meghana", "629");
+		pbxMap.put("chetana araj", "630");
+		pbxMap.put("chetana", "630");
+		pbxMap.put("sanjeev kumar", "632");
+		pbxMap.put("sanjeev", "632");
+		pbxMap.put("kishore kumar", "633");
+		pbxMap.put("kishore", "633");
+		pbxMap.put("kk", "633");
+		pbxMap.put("sandesh mandhane", "635");
+		pbxMap.put("sandesh", "635");
+		pbxMap.put("aniket paul", "636");
+		pbxMap.put("aniketp", "636");
+		pbxMap.put("aniket", "636");
+		pbxMap.put("reenu g", "637");
+		pbxMap.put("reenu", "637");
+		pbxMap.put("reenug", "637");
+		pbxMap.put("milind r", "638");
+		pbxMap.put("Milindr", "638");
+		pbxMap.put("Milind r", "638");
+		pbxMap.put("mahesh bhor", "639");
+		pbxMap.put("mahesh", "639");
+		pbxMap.put("gaurav gupta", "644");
+		pbxMap.put("gaurav", "644");
+		pbxMap.put("jayati d", "645");
+		pbxMap.put("jayatid", "645");
+		pbxMap.put("jayati", "645");
+		pbxMap.put("omkar achrekar", "646");
+		pbxMap.put("omkar", "646");
+		pbxMap.put("vishal d", "647");
+		pbxMap.put("vishald", "647");
+		pbxMap.put("vishal", "647");
+		pbxMap.put("kunal rane", "648");
+		pbxMap.put("kunal", "648");
+		pbxMap.put("kunal r", "648");
+		pbxMap.put("kunalr", "648");
+		pbxMap.put("manali b", "649");
+		pbxMap.put("manalib", "649");
+		pbxMap.put("manali", "649");
+		pbxMap.put("rajaram", "650");
+		pbxMap.put("yash bhuta", "651");
+		pbxMap.put("yash", "651");
+		pbxMap.put("ragini chaurasia", "652");
+		pbxMap.put("ragini", "652");
+		pbxMap.put("sagar golhar", "653");
+		pbxMap.put("sagar", "653");
+		pbxMap.put("pooja katkade", "654");
+		pbxMap.put("pooja", "654");
+		pbxMap.put("tejendra", "655");
+		pbxMap.put("tushar chavan", "656");
+		pbxMap.put("tushar", "656");
+		pbxMap.put("sayali joshi", "657");
+		pbxMap.put("sayali", "657");
 		pbxMap.put("avinash", "631");
+		pbxMap.put("avinash patil", "631");
 		pbxMap.put("amol k", "642");
 		pbxMap.put("amolk", "642");
+		pbxMap.put("amol", "642");
+
+		pbxMap.put("pranaw kumar", "561");
+		pbxMap.put("pranaw", "561");
+		pbxMap.put("bira singh", "562");
+		pbxMap.put("bira", "562");
+		pbxMap.put("sushant pani", "567");
+		pbxMap.put("sushant", "567");
+		pbxMap.put("rachna nerpagar", "563");
+		pbxMap.put("rachna", "563");
+		pbxMap.put("rachana", "563");
+		pbxMap.put("amol bole", "564");
+		pbxMap.put("amol b", "564");
+		pbxMap.put("amolb", "564");
+		pbxMap.put("anchal rani", "565");
+		pbxMap.put("anchal", "565");
+		
+		pbxMap.put("akanksha joshi", "572");
+		pbxMap.put("akanksha", "572");
+		pbxMap.put("abhishek gangwar", "573");
+		pbxMap.put("abhishek", "573");
+		pbxMap.put("shailashree sheshadri", "575");
+		pbxMap.put("shailashree", "575");
+		pbxMap.put("rohini shinde", "576");
+		pbxMap.put("rohini", "576");
+		
+		pbxMap.put("sweta suhasaria", "577");
+		pbxMap.put("sweta", "577");
+		pbxMap.put("amitesh banerjee", "578");
+		pbxMap.put("amitesh", "578");
+		pbxMap.put("yogendrakumar yadav", "579");
+		pbxMap.put("yogendrakumar", "579");
+		
+		pbxMap.put("uttam kumawat", "582");
+		pbxMap.put("uttam", "582");
+		pbxMap.put("anupam saxena", "583");
+		pbxMap.put("anupam", "583");
+		pbxMap.put("shashi bhushan", "584");
+		pbxMap.put("shashi", "584");
+		pbxMap.put("vasudev patil", "585");
+		pbxMap.put("vasudev", "585");
 		
 		pbxMap.put("itss", "amol suroshe 540 \n tirupati paik 546 \n charuhas s 547 \n mahendra joshi 548 \n gajanan lobhe 549 \n chandrakant kate 555 \n vikram k 557 ");
+		pbxMap.put("it ss", "amol suroshe 540 \n tirupati paik 546 \n charuhas s 547 \n mahendra joshi 548 \n gajanan lobhe 549 \n chandrakant kate 555 \n vikram k 557 ");
 		pbxMap.put("hrd", "madhavi salvi 421 \n swapna ballal 422 \n ruta khanvilkar 422");
 		pbxMap.put("hr", "madhavi 421 \n swapna 422 \n ruta 422");
 		pbxMap.put("edoffice", "sasi kumar 530 \n geeta nair 531 \n jitendra jagtap 533");
+		pbxMap.put("director office", "sasi kumar 530 \n geeta nair 531 \n jitendra jagtap 533");
 		pbxMap.put("ed office", "sasi kumar 530 \n geeta nair 531 \n jitendra jagtap 533");
 		pbxMap.put("accounts", "vanita kamath 411 \n tushar koli 412 \n dolly shroff 413 \n gayatri antani 414 \n kunal hatkar 415 \n Dhanashri/Seema 416 \n Anuradha Santosh/Sawant 417");
 		pbxMap.put("admin", "Varsha Karkare / Course 400 \n Trupti Shah 401 \n Ramesh Pawar 402 \n Sangita Mulik 403 \n V .K. Lohakare 404 \n Sabrina Pereira 406 \n Manju Menon 407 \n Gracy Abreo 408 \n Jean jojo 409 \n Sudha iyer 410 \n J.D Hande / Laxman 418 \n B Ghosh 423 \n Anuradha Subramanium 532");
 		pbxMap.put("library", "Trupti Shah 425 \n Savita Rao 426 \n Kavi Raju C 427");
 		pbxMap.put("seng", "Dr. Padmaja Joshi 601 \n Dr. Urja Vora 602");
+		pbxMap.put("lcg", "Pranaw Kumar 561 \n Bira Singh 562 \n Sushant Pani 567 \n ");
+		pbxMap.put("kbcs", "Akanksha Joshi 572 \n Abhishek Gangwar 573 \n Shailashree Sheshadri 575 \n Rohini Shinde 576");
+		pbxMap.put("biometrics", "Sweta Suhasaria 577 \n Amitesh Banerjee 578 \n Yogendrakumar Yadav 579");
+		pbxMap.put("cnie", "Uttam Kumawat 582 \n Anupam Saxena 583 \n Shashi Bhushan 584 \n Vasudev Patil 585");
 //		pbxMap.put("", "");
 		
 	}
@@ -206,3 +308,5 @@ public class PbxHandler {
 	}
 
 }
+
+
