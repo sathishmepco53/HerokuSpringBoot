@@ -1,7 +1,6 @@
 package com.cdac.topics;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -13,9 +12,10 @@ public class TopicService {
 	private List<Topic> topics = new ArrayList<>();
 	
 	public TopicService(){
-		topics.add(new Topic("1", "Java", "Java"));
-		topics.add(new Topic("2", "Dot Net", "Dot Net"));
-		topics.add(new Topic("3", "Android", "Android"));
+		topics.add(new Topic("1", "Java", "Core Java for beginners"));
+		topics.add(new Topic("2", "Dot Net", "Dot Net for beginners"));
+		topics.add(new Topic("3", "Android", "Advanced Android Concepts"));
+		topics.add(new Topic("4","iOS","iOS in swift language"));
 	}
 
 	public List<Topic> getAllTopics() {
@@ -62,4 +62,3 @@ public class TopicService {
 		return "No such topic is available";
 	}
 }
-
